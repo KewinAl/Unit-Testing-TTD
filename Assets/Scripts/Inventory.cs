@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-public class Inventory
+public partial class Inventory
 {
     Dictionary<EquipSlots,Item> equippedItems = new Dictionary<EquipSlots,Item>();
     List<Item> unequippedItems = new List<Item>();
